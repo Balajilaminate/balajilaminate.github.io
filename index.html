@@ -1,28 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Balaji Laminate</title>
-  <link rel="stylesheet" href="style.css">
+<title>Balaji Laminate</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+font-family:'Poppins', sans-serif;
+}
+
+nav{
+background:black;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 20px;
+text-decoration:none;
+font-weight:600;
+}
+
+nav a:hover{
+color:#c8a165;
+}
+
+.hero{
+background:url('https://images.unsplash.com/photo-1582582494700-1a0e5b0d1f10') center/cover no-repeat;
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+text-align:center;
+}
+
+.hero div{
+background:rgba(0,0,0,0.6);
+padding:40px;
+border-radius:10px;
+}
+
+button{
+background:#c8a165;
+border:none;
+padding:12px 25px;
+color:white;
+font-weight:bold;
+cursor:pointer;
+border-radius:5px;
+}
+</style>
 </head>
+
 <body>
 
-<header>
-  <h1>BALAJI LAMINATE</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="products.html">Products</a>
-    <a href="catalogue.html">Catalogue</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+<nav>
+<a href="index.html">Home</a>
+<a href="#">Catalogue</a>
+<a href="contact.html">Contact</a>
+</nav>
 
-<div class="container">
-  <p>Premium Decorative Laminates for Modern Interiors</p>
-
-  <a class="btn" href="products.html">Our Products</a><br><br>
-  <a class="btn" href="catalogue.html">Download Catalogue</a><br><br>
-  <a class="btn" href="https://wa.me/919265955392">WhatsApp Enquiry</a>
+<section class="hero">
+<div>
+<h1 style="font-size:50px;">Balaji Laminate</h1>
+<p style="font-size:20px;">Redefining Wooden Elegance</p>
+<button>Contact Us</button>
 </div>
+</section>
 
 </body>
 </html>
